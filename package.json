@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AkifumiSato/esbuild-jest#readme",
   "devDependencies": {
+    "@swc/jest": "^0.1.2",
     "@types/jest": "^26.0.14",
     "esbuild-jest": "^0.2.2",
     "jest": "^26.4.2"
