@@ -1,0 +1,25 @@
+{
+  "name": "esbuild-jest-sampel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkifumiSato/esbuild-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkifumiSato/esbuild-jest/issues"
+  },
+  "homepage": "https://github.com/AkifumiSato/esbuild-jest#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "esbuild-jest": "^0.2.2",
+    "jest": "^26.4.2"
+  }
+}
