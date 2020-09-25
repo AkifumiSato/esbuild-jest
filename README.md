@@ -2,12 +2,12 @@
 test speed result.
 
 ### babel
-1.017s
+3.035s
 
 ### esbuild
-0.786s
+1.572s
 
 ### swc
-0.782s
+1.529s
 
 
