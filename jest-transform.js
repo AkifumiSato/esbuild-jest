@@ -3,6 +3,7 @@ const esbuild = require('esbuild')
 const { builtinModules } = require('module')
 
 const pkg = require(path.resolve('package.json'))
+const config = require(path.resolve('jest.esbuild'))
 
 const external = [
   ...builtinModules,
@@ -19,8 +20,8 @@ module.exports = {
       minify: false,
       bundle: true,
       write: false,
-      target: 'es2018',
       sourcemap: true,
+      ...config,
       external
     })
 
