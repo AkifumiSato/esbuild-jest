@@ -20,6 +20,8 @@
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "esbuild-jest": "^0.2.2",
+    "esbuild-jest-transform": "^1.0.0",
     "jest": "^26.4.2"
-  }
+  },
+  "dependencies": {}
 }
